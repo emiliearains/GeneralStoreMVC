@@ -16,7 +16,9 @@ namespace GeneralStoreMVC.Controllers
         // GET: Customer
         public ActionResult Index()
         {
-            return View();
+            List<Customer> customerList = _db.Customers.ToList();
+            List<Customer> orderedCustomerList = customerList.OrderBy(cust => cust.FullName).ToList();
+            return View(orderedCustomerList);
         }
         // GET : Customer/Create
         public ActionResult Create()

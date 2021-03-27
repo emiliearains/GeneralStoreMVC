@@ -106,3 +106,6 @@ C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.csproj.CopyComplete
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.dll
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.pdb
+C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.Migrations.InitialCreate.resources
+C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.csproj.GenerateResource.cache
+C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.Migrations.InitialMigration.resources
