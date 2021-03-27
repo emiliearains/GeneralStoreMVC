@@ -11,7 +11,6 @@ namespace GeneralStoreMVC.Controllers
 {
     public class ProductController : Controller
     {
-        // Add the application DB Context (link to the database)
         private ApplicationDbContext _db = new ApplicationDbContext();
 
         // GET : Product
