@@ -16,7 +16,13 @@ namespace GeneralStoreMVC.Controllers
         public ActionResult Index()
         {
             List<Transaction> transactionList = _db.Transactions.ToList();
-          //  List<Transaction> orderedTransactionList = transactionList.OrderBy(transID).ToList();
+           List<Transaction> orderedTransactionList = transactionList.OrderBy(x=>x.TransID).ToList();
+            return View(orderedTransactionList);
+        }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
             return View();
         }
 
