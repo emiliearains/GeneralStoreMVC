@@ -16,10 +16,10 @@
             @Html.DisplayNameFor(model => model.TransID)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.CustomerID)
+            @Html.DisplayNameFor(model => model.Customer.FullName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ProductID)
+            @Html.DisplayNameFor(model => model.Product.Name)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Quantity)
@@ -33,18 +33,18 @@
                 @Html.DisplayFor(modelItem => item.TransID)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CustomerID)
+                @Html.DisplayFor(modelItem => item.Customer.FullName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ProductID)
+                @Html.DisplayFor(modelItem => item.Product.Name)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Quantity)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.ProductID })
-                @Html.ActionLink("Details", "Details", new { id = item.ProductID })
-                @Html.ActionLink("Delete", "Delete", new { id = item.ProductID })
+                @Html.ActionLink("Edit", "Edit", new { id = item.TransID })
+                @Html.ActionLink("Details", "Details", new { id = item.TransID })
+                @Html.ActionLink("Delete", "Delete", new { id = item.TransID })
             </td>
         </tr>
     }

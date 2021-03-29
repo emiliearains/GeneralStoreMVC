@@ -110,3 +110,4 @@ C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.Migrations.InitialMigration.resources
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.Migrations.transactionmigratin.resources
+C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.Migrations.DateTimeUpdate.resources
