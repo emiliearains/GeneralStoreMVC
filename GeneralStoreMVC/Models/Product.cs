@@ -9,7 +9,7 @@ namespace GeneralStoreMVC.Models
     public class Product
     {
         [Key]
-        public int ProductId { get; set; }
+        public int ProductID { get; set; }
         
         [Required]
         [Display(Name = "Product Name")]
